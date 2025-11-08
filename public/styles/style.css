@@ -4,7 +4,9 @@ body {
   padding: 0;
   background-color: #fffaf3;
   color: #333;
+  scroll-behavior: smooth;
 }
+
 
 header {
   background-color: #8b4513;
@@ -13,26 +15,37 @@ header {
   padding: 1.5rem 1rem;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
 nav a {
   color: white;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+
 section {
   padding: 2rem;
   text-align: center;
 }
 
-h1, h2 {
+h2 {
   color: #5a2d0c;
+  margin-bottom: 1.5rem;
 }
+
 
 .card {
   display: inline-block;
@@ -40,24 +53,36 @@ h1, h2 {
   margin: 15px;
   padding: 15px;
   border-radius: 12px;
-  width: 220px;
+  width: 230px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
   transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .card img {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
+
 
 footer {
   background-color: #8b4513;
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #ffd59a;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://taller-electiva.pages.dev/sitemap.xml
